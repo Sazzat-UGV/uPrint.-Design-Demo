@@ -118,7 +118,7 @@
   .pricing-price{}
   
   .price_btn {
-    background: #554c86;
+    background: #6a5faa;
     padding: 10px 30px;
     color: #fff;
     display: inline-block;
@@ -127,9 +127,13 @@
     -webkit-transition: 0.3s;
     transition: 0.3s;
   }
-  .price_btn:hover{background:#0aa1d6;}
+  .price_btn:hover{
+    background:#453f68;
+    color: white;
+  }
   a{
-  text-decoration:none;    
+  text-decoration:none; 
+  
   }
   
   .section-title {
