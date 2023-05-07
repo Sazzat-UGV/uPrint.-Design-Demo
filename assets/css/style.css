@@ -1,4 +1,3 @@
-/*Home Page*/
 .header h1 {
     font-size: 40px;
     font-weight: 700;
@@ -25,20 +24,68 @@
     background-color: #DEE1E3;
   }
 
+
+
+  .upload_body{
+    background-color: #f7f7f7;
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+
+  .upload_body-right h1{
+    font-weight: 800;
+    font-size: 70px;
+    font-family: 'Poppins', sans-serif; 
+    margin-top: 120px; 
+  }
+
+
   @media (max-width: 992px) {
     .nav-item:nth-last-child(-n+2) .nav-link {
         margin-top: 5px;
     }
+    .upload_body-right h1{
+      font-weight: 800;
+      font-size: 40px;
+      font-family: 'Poppins', sans-serif;
+      margin-top: 40px;
+    }
   }
 
-  .upload_body{
-    background-color: #f7f7f7;
+
+
+  @media(max-width:767px){
+    .upload_body-right h1{
+      font-weight: 800;
+      font-size: 50px;
+      font-family: 'Poppins', sans-serif;
+    }
   }
 
-.image{
-    height: auto;
-    width: 50%;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  .footer{
+    color: white;
+    background: #000;
+    width: auto;
   }
-
-  
-
